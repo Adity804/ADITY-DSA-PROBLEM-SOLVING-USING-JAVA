@@ -1,0 +1,19 @@
+import java.math.BigInteger;
+
+public class Big_factorial {
+	
+	 
+	public static void main(String[] args) {
+		
+		 
+		// TODO Auto-generated method stub
+		
+		System.out.println("Enter a whole a number");
+		int n = 25;
+		BigInteger factorial = BigInteger.ONE;
+		for(int i = 1; i<=n; i++) {
+			factorial = factorial.multiply(BigInteger.valueOf(i));
+			System.out.println(factorial);
+		}
+      }
+         }
